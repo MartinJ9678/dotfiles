@@ -4,3 +4,5 @@ alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/m
 
 # Quickly serve the current directory as HTTP
 alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
+
+export GOOGLE_APPLICATION_CREDENTIALS=/Users/jauffret/Documents/gcp_keys/wagon-bootcamp-f7faa6319a43.json
